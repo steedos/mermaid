@@ -41,7 +41,7 @@ text.actor {
 .messageLine0 {
   stroke-width: 1.5;
   stroke-dasharray: "2 2";
-  marker-end: "url(#arrowhead)";
+  /*marker-end: "url(#arrowhead)";*/   /*会造成编译不通过*/
   stroke: #333;
 }
 .messageLine1 {
@@ -75,7 +75,8 @@ text.actor {
 .loopLine {
   stroke-width: 2;
   stroke-dasharray: "2 2";
-  marker-end: "url(#arrowhead)";
+  /*marker-end: "url(#arrowhead)";*/ /*会造成编译不通过*/
+  stroke: #333;
   stroke: #CCCCFF;
 }
 .note {
